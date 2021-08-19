@@ -2,6 +2,8 @@
 apigatewaydisconnectapi
 =======================
 
+**DEPRECATED - THIS FUNCTIONALITY IS NOW PART OF THE BOTO3 ApiGatewayManagementApi**
+
 Provides a boto3 client class by the same name with a disconnect method for
 disconnecting websocket clients.
 

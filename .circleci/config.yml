@@ -23,11 +23,3 @@ workflows:
   build-and-upload:
     jobs:
       - build
-      - upload:
-          context: pypi
-          filters:
-            branches:
-              only:
-                - master
-          requires:
-            - build
